@@ -1,0 +1,21 @@
+{
+    "@context": {"@vocab": "https://schema.org/"},
+    "@type": "Dataset",
+    "@id": "{{ dsid }}",
+    "name": "{{ name }}",
+    "description": "{{ abstract }}"{% if kwds %},
+    "keywords": [{% for kw in kwds %}"{{ kw }}"{% if not loop.last %},{% endif %}{% endfor %}]{% endif %}{% if variableMeasured %},
+    "variableMeasured": [{% for vm in variableMeasured %}
+        {"@type": "PropertyValue",
+         "name": "{{ vm }}"
+        }{% if not loop.last %},{% endif %}{% endfor %}]{% if contentUrl is not none %}{% endif %},
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "{{ contentUrl }}"
+    }{% endif %}{% if orgName is not none %},
+    "provider": [{
+        "@type": "Organization",
+        "legalName": "{{ orgName }}"{% if orgUrl is not none %},
+        "url": "{{ orgUrl }}"{% endif %}
+    }]{% endif %}
+}

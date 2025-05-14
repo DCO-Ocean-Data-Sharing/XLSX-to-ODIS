@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8">
+<urlset xmlns="http://sitempas.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://foo/bar/5be1b8c3-1e76-4e36-9a2d-64eebaaf22c9.json</loc>
+    </url>
+    <url>
+        <loc>https://foo/bar/fb9400c7-b901-4fc2-bce6-f1901af57f8f.json</loc>
+    </url>
+    <url>
+        <loc>https://foo/bar/adcd35bb-7f4d-4e64-b65a-c5c6a1b1c403.json</loc>
+    </url>
+    <url>
+        <loc>https://foo/bar/f3af255d-a29f-4a04-a6b6-84b347e0663e.json</loc>
+    </url>
+</urlset>

@@ -1,0 +1,13 @@
+{
+    "@context": {"@vocab": "https://schema.org/"},
+    "@type": "Dataset",
+    "@id": "https://foo/bar/5be1b8c3-1e76-4e36-9a2d-64eebaaf22c9.json",
+    "name": "Gathering Information via Recreational and Technical Scientific Divers",
+    "description": "The no-impact underwater archaeological conservation-focused program Gathering Information via Recreational and Technical (GIRT) Scientific Divers trains interested individuals to systematically monitor underwater cultural heritage (UCH) sites in the open water environment. GIRT members agree to share their collected data with the broader public to increase awareness of the threats to the UCH non-renewable resource from natural (mechanical, chemical, or biological) or anthropogenic activity. GIRT members share their data with the relevant UCH management agency to strengthen their science-based decision-making capacity.",
+    "keywords": ["Citizen science","Cultural heritage","Underwater maritime heritage","Tasman Sea","Coral Sea","Great Australian Bight","Indian Ocean ","English channel","Irish sea","Greenland sea","Labrador sea","Lake Erie","DS12 Human activities"],
+    "provider": [{
+        "@type": "Organization",
+        "legalName": "GIRT Scientific Divers",
+        "url": "https://www.girtsd.org/"
+    }]
+}

@@ -1,0 +1,36 @@
+{
+    "@context": {"@vocab": "https://schema.org/"},
+    "@type": "Dataset",
+    "@id": "https://foo/bar/adcd35bb-7f4d-4e64-b65a-c5c6a1b1c403.json",
+    "name": "Patagonia data from January 2024 to February 2024 from the Peace Boat US - Youth for the SDGs Program ",
+    "description": "Data from Patagonia water testing Jan - Feb 2024 - Peace Boat US programs for the United Nations Decade of Ocean Science for Sustainable Development will take place onboard Peace Boat’s ship which sails with the logo of the UN SDGs. Youth leaders from around the world who are working toward sustainability in their home communities are invited to travel onboard and engage in capacity building and citizen science programs. The educational programs developed in partnership with the UN, civil society organizations, academia, government partners and the local communities we visit, focus on SDG14, as well as connect to the broader 2030 Agenda. Participants engage in workshops, lectures and seminars while at sea, and the experiences in the ports of call enrich their understanding of marine science and climate action on a scale from local to global. The programs will continue to develop throughout the coming years inline with the aims of the UN Ocean Decade, creating the framework for future programs on ocean literacy and marine education.",
+    "keywords": ["Atmospheric and oceanic research","Citizen science","Capacity development ","Education","Ocean advocacy","South Pacific Ocean ","DS12 Human activities"],
+    "variableMeasured": [
+        {"@type": "PropertyValue",
+         "name": "Air temperature"
+        },
+        {"@type": "PropertyValue",
+         "name": "Dissolved Oxygen concentration"
+        },
+        {"@type": "PropertyValue",
+         "name": "Dissolved Oxygen saturation"
+        },
+        {"@type": "PropertyValue",
+         "name": "Air temperature"
+        },
+        {"@type": "PropertyValue",
+         "name": "pH"
+        },
+        {"@type": "PropertyValue",
+         "name": "Turbidity"
+        }],
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://docs.google.com/spreadsheets/d/1HMC-PJk8ktABoTCXxQF3a--b57KXoUR6/edit?gid=1218956867#gid=1218956867"
+    },
+    "provider": [{
+        "@type": "Organization",
+        "legalName": "Peace Boat US",
+        "url": "https://peaceboat-us.org/"
+    }]
+}

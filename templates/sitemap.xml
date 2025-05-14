@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8">
+<urlset xmlns="http://sitempas.org/schemas/sitemap/0.9">{% for site in sitemap %}
+    <url>
+        <loc>{{ site["url"] }}</loc>
+    </url>{% endfor %}
+</urlset>

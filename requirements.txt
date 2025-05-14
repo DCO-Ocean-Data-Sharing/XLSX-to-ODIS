@@ -1,0 +1,9 @@
+cachetools==5.5.2
+fastexcel==0.14.0
+frozendict==2.4.6
+Jinja2==3.1.6
+lxml==5.4.0
+MarkupSafe==3.0.2
+polars==1.29.0
+pyarrow==20.0.0
+pyparsing==3.2.3
