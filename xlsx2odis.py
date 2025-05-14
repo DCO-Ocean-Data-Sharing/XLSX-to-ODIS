@@ -73,13 +73,8 @@ if __name__ == "__main__":
             exit()
         elif opt.split("=")[0] == "-b":
             baseurl = opt.split("=")[1]
-            baseurl_ok: bool = False
-            # False if the base URL ends in a "/"
-            while not baseurl_ok:
-                if baseurl[-1] == "/":
-                    baseurl = baseurl[:-2]
-                else:
-                    baseurl_ok = True
+            while baseurl[-1] == "/":
+                baseurl = baseurl[:-1]
         elif opt.split("=")[0] == "-i":
             infil = opt.split("=")[1]
         elif opt.split("=")[0] == "-o":
