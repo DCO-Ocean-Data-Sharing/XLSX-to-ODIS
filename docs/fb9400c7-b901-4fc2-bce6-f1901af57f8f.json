@@ -1,7 +1,7 @@
 {
     "@context": {"@vocab": "https://schema.org/"},
     "@type": "Dataset",
-    "@id": "https://foo/bar/fb9400c7-b901-4fc2-bce6-f1901af57f8f.json",
+    "@id": "https://dco-ocean-data-sharing.github.io/XLSX-to-ODI/fb9400c7-b901-4fc2-bce6-f1901af57f8f.json",
     "name": "Arctic data May 2023 to June 2023 from the Peace Boat US - Youth for the SDGs Program ",
     "description": "Arctic data May to June 2023 - Peace Boat US programs for the United Nations Decade of Ocean Science for Sustainable Development will take place onboard Peace Boat’s ship which sails with the logo of the UN SDGs. Youth leaders from around the world who are working toward sustainability in their home communities are invited to travel onboard and engage in capacity building and citizen science programs. The educational programs developed in partnership with the UN, civil society organizations, academia, government partners and the local communities we visit, focus on SDG14, as well as connect to the broader 2030 Agenda. Participants engage in workshops, lectures and seminars while at sea, and the experiences in the ports of call enrich their understanding of marine science and climate action on a scale from local to global. The programs will continue to develop throughout the coming years inline with the aims of the UN Ocean Decade, creating the framework for future programs on ocean literacy and marine education.",
     "keywords": ["Atmospheric and oceanic research","Citizen science","Capacity development ","Education","Ocean advocacy","Greenland sea","Norway sea","DS12 Human activities"],
